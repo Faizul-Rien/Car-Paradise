@@ -1,8 +1,8 @@
 import React from 'react';
 import './Review.css';
 
-const Review = ({review,rivs}) => {
-    const {name,rev,rating} = review;
+const Review = (props) => {
+    const {name,rev,rating} = props.review;
     return (
         <div className='review-cart'>
             <h2>Name:{name}</h2>
