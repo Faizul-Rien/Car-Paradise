@@ -1,0 +1,16 @@
+.not-found{
+    text-align: center;
+    margin-top: 100px;
+}
+.error{
+    color: red;
+    font-size: 60px;
+    font-weight: 600;
+}
+.not-found h2{
+    font-size: 40px;
+    color: dimgray;
+}
+.not-found h4{
+    font-weight: 400;
+}
