@@ -7,6 +7,8 @@ import './Home.css';
 
 const Home = () => {
     const [reviews, setReviews] = useReviews()
+
+    
     return (
        <div>
             <div className='home-container'>
@@ -22,15 +24,18 @@ const Home = () => {
             
         </div>
         <div className='customer-review'>
-            <h1>Customer Reviews:{reviews.length}</h1>
+            <h1>Customer Reviews: ({reviews.slice(0,3).length})</h1>
             <div className='review-card'>
                 {
-                    reviews.map(review => <Review
+                    reviews.slice(0,3).map(review => (<Review
                     key={review.id}
                     review={review}
+                   
+                  
                     
-                    ></Review>)
+                    ></Review>))
                 }
+
             </div>
             <div className='review-btn'>
             <Link to='/reviews'>See All Reviews</Link>
