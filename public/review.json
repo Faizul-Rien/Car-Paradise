@@ -2,36 +2,37 @@
   {
     "id": 1,
     "name": "Richmond Golden",
-    "review":"Mileage doesn't matter if you are using ROLLS-ROYCE.",
+    "rev":"Mileage doesn't matter if you are using ROLLS-ROYCE.",
     "rating":4.5
   },
   {
     "id": 2,
     "name": "Pugh Doyle",
-	"review":"Just amazing, I don't know how but as far as I am concerned this is the one and only you knew it would.",
+	"rev":"Just amazing, I don't know how but as far as I am concerned this is the one and only you knew it would.",
     "rating":5
   },
   {
     "id": 3,
     "name": "Dona Collier",
-	"review":"Fantastic car with great mileage and amazing Built quality.",
+	"rev":"Fantastic car with great mileage and amazing Built quality.",
     "rating":5
   },
   {
     "id": 4,
     "name": "Kristy Cooke",
-    "review":" I own this car for past 1 year servicing cost is also very low. I'm extremely satisfied and happy.",
+    "rev":" I own this car for past 1 year servicing cost is also very low. I'm extremely satisfied and happy.",
     "rating":4
   },
   {
     "id":5,
     "name": "Kent Herman",
-	"review":"I have bought this car about 1 month ago and this car is great.",
+	"rev":"I have bought this car about 1 month ago and this car is great.",
     "rating":4.5
   },
+  {
 	"id":6,
     "name": "Bryn Smith",
-	"review":"This is an overpowered car its security system is so Awesome, I love this car.",
+	"rev":"This is an overpowered car its security system is so Awesome, I love this car.",
     "rating":5
   }
 ]

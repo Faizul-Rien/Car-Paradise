@@ -1,6 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import useReviews from '../../Hooks/Hooks';
 import img from '../../images/car.png';
+import Review from '../Review/Review';
 import './Home.css';
 
 const Home = () => {
@@ -20,10 +22,20 @@ const Home = () => {
             
         </div>
         <div className='customer-review'>
-            <h1>Customer Reviews:</h1>
+            <h1>Customer Reviews:{reviews.length}</h1>
             <div className='review-card'>
-
+                {
+                    reviews.map(review => <Review
+                    key={review.id}
+                    review={review}
+                    
+                    ></Review>)
+                }
             </div>
+            <div className='review-btn'>
+            <Link to='/reviews'>See All Reviews</Link>
+            </div>
+            
         </div>
        </div>
 
