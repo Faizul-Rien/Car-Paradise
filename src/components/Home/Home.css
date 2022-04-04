@@ -1,0 +1,43 @@
+.home-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 50px;
+}
+
+.home-img img{
+    width: 75%;
+    margin-left: 60px;
+}
+
+.home-info{
+    padding: 10px;
+    margin-right: 30px;
+}
+.info-p{
+    text-align: justify;
+}
+.info-h1{
+font-weight:700;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.info-spam{
+color: orangered;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.info-btn{
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 7px;
+    font-weight: 700;
+}
+.info-btn:hover{
+    background-color: green;
+}
+
+.customer-review{
+    text-align: center;
+    margin-top: 80px;
+}
