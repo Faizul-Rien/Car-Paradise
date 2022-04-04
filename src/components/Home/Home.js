@@ -16,7 +16,7 @@ const Home = () => {
                 <img src={img} alt="" />
             </div>
             <div className='home-info'>
-                <h1 className='info-h1'>The joy of best Best Ride</h1>
+                <h1 className='info-h1'>The joy of Best Ride</h1>
                 <h1><spam className='info-spam'>Always there for you</spam></h1>
                 <p className='info-p'>“Strive for perfection in everything you do. Take the best that exists and make it better. When it does not exist, design it.” This sentence by Henry Royce, who founded the company together with Charles Rolls, is the brand's motto, which is still valid today.</p>
                 <button className='info-btn' >More Information</button>

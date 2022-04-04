@@ -1,0 +1,16 @@
+.about-h2{
+    text-align: center;
+    font-size: 40px;
+    color: blueviolet;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.about-h2 span{
+    color: orangered;
+}
+.about-us{
+    text-align: justify;
+    padding: 10px;
+    width: 50%;
+    margin-left: 330px;
+   
+}
